@@ -100,7 +100,7 @@
      theme-name
      '(button ((t (:underline t))))
 
-     `(cursor                       ((t (:background ,accent3 :foreground ,bg))))
+     `(cursor                       ((t (:background "#777777" :foreground ,bg))))
      `(default                      ((t (:background ,bg      :foreground ,norm))))
      `(region                       ((t (:background ,faint-blue))))
      `(font-lock-constant-face      ((t (:foreground ,accent1))))
@@ -115,7 +115,7 @@
 
      `(vertical-border              ((nil (:foreground ,subtle))))
      `(header-line                  ((t (:background "#000000"))))
-     `(mode-line ((t (:background ,accent2 :foreground ,bg :box nil))))
+     `(mode-line ((t (:background ,accent3 :foreground ,bg :box nil))))
      `(mode-line-inactive ((t (:background ,subtle :foreground ,bg :box nil)))))
 
 
